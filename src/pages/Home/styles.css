@@ -1,0 +1,156 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.home-vertical-bottom {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to bottom, #111 10%, transparent 60%);
+}
+.home-vertical-top {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to top, #111 1%, transparent 60%);
+}
+.linha-vertical {
+  margin-top: 49px;
+  width: 100%;
+  border: 4px solid #222;
+}
+.home-main {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-header {
+  margin-top: 180px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.1;
+}
+.card-header h1 {
+  font-size: 52px;
+  text-align: center;
+  margin: 12px;
+}
+.card-header h4 {
+  font-size: 28px;
+  margin: 10px;
+  font-weight: 300;
+}
+.card-header h5 {
+  font-size: 18px;
+  margin: 10px;
+  font-weight: 300;
+}
+.card-header p {
+  font-size: 20px;
+  margin: 10px;
+}
+.home {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-animation {
+  width: 100%;
+  background-color: #000;
+}
+.card-animation-2,
+.card-animation-3,
+.card-animation-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-text {
+  background-color: #000;
+}
+.card-text h1 {
+  text-align: justify;
+  font-size: 3.125rem;
+}
+.card-text h3 {
+  width: 610px;
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+.cardimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.imgAnimation {
+  position: absolute;
+  width: 450px;
+}
+.img2Animation {
+  position: relative;
+  z-index: 2;
+  width: 450px;
+}
+.img2Animation1 {
+  width: 450px;
+}
+.card-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: #000;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  margin-top: 130px;
+}
+.card-box img {
+  height: 4.5rem;
+  margin-right: 10px;
+}
+.card-box p {
+  font: 0.9rem;
+  font-weight: 600;
+  color: #fff;
+}
+.card-box span {
+  color: #0071eb;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.imgAnimation2 {
+  position: absolute;
+  margin-top: -150px;
+  width: 390px;
+}
+.img2Animation2 {
+  position: relative;
+  z-index: 2;
+}
+.question {
+  width: 100%;
+  background-color: #000;
+}
+.question h1 {
+  text-align: center;
+}
+.questionButton {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.questionButton p {
+  text-align: center;
+  font-size: 1.2rem;
+}
